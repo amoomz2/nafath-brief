@@ -34,3 +34,9 @@ Resource: NIST - SP 800-63B-4 Digital Identity Guidelines: Authentication and Au
 Under Oman's Personal Data Protection Law, authorities must handle citizens' personal data lawfully and transparently. They should explain why data is collected, obtain consent where required, and protect stored information against unauthorized access or disclosure. Authorities must respect individuals' data protection rights and follow applicable requirements for data retention and breach notification. These safeguards help protect citizens' privacy and build trust in national digital identity services.
 
 Resource: Ministry of Transport, Communications and Information Technology - Personal Data Protection - https://mtcit.gov.om/ar/sectors/governance/personal
+
+## Misconception in My Track
+A common misconception is that OAuth 2.0 and OpenID Connect are interchangeable technologies for user login. In reality, OAuth 2.0 is an authorization framework that allows applications to access protected resources with limited permissions, while OpenID Connect adds an identity layer to authenticate users. Using OAuth 2.0 alone does not provide a standard mechanism for verifying a user's identity. Developers should use OpenID Connect when implementing user authentication. This distinction is explained in the OpenID Connect Core 1.0 specification, Section 1, “Introduction.”
+
+## Open Question
+How can a national digital identity service combine OpenID Connect, secure token validation, and account recovery to protect citizens' data while maintaining reliable authentication?
